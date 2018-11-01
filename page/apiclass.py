@@ -20,6 +20,7 @@ class apiclass():
         reslut =self.s.post(url=url, json=data)
         return reslut.json()
     def adposition(self,fun):
+        """广告投放位置"""
         url="http://pre-admin-pc.ucmbar.com/youCS/youC/admin/Synthesize/api"
         data={
             "header":{"data_type":"normal","data_direction":"request","server":"YoucManage","id":"YoucManage"},
@@ -28,7 +29,7 @@ class apiclass():
         result=self.s.post(url=url,json=data)
         return result.json()
     def adorder(self,fun,adname):
-
+        """触摸屏广告位置显示"""
         url = "http://pre-admin-pc.ucmbar.com/youCS/youC/admin/Synthesize/api"
         data={
             "header":{"data_type":"normal","data_direction":"request","server":"YoucManage","id":"YoucManage"},
@@ -40,12 +41,18 @@ class apiclass():
 
         result=self.s.post(url=url,json=data)
         return result.json()
-
+    def adlist(self,fun,type):
+        url="http://pre-admin-pc.ucmbar.com/youCS/youC/admin/Synthesize/api"
+        data={"header":{"data_type":"normal","data_direction":"request","server":"YoucManage","id":"YoucManage"},
+	          "request":{"function":fun,"version":"1.0","ad_name":"","status":"0","type":type},
+	          "comment":[]}
+        result=self.s.post(url=url,json=data)
+        return result.json()
 if __name__ == '__main__':
     s = requests.session()
     b=apiclass(s)
-    a=b.login('18575686374','123456')
+    b.login("18575686374","123456")
+    a=b.adlist("3323","1001")
     print(a)
-    c=b.adorder("3321","1023ad")
-    print(c)
+
 
