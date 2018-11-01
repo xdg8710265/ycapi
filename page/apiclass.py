@@ -5,7 +5,6 @@
 
 import requests
 
-
 import json
 class apiclass():
      #初始话
@@ -38,10 +37,10 @@ class apiclass():
                         "list_order":"1","desc":"备注描述11","set_condition":"1","property":[],"provinces":[],"city":[],
                         "account_type":[1,2],"sort":"timestamp"},
 	        "comment":""}
-
         result=self.s.post(url=url,json=data)
         return result.json()
     def adlist(self,fun,type):
+        """广告位置显示"""
         url="http://pre-admin-pc.ucmbar.com/youCS/youC/admin/Synthesize/api"
         data={"header":{"data_type":"normal","data_direction":"request","server":"YoucManage","id":"YoucManage"},
 	          "request":{"function":fun,"version":"1.0","ad_name":"","status":"0","type":type},

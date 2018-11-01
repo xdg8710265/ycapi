@@ -5,6 +5,7 @@
 from yc_object.common.myunit import *
 from yc_object.common.function import *
 import logging
+import logging.config
 
 class TestAdps(StartEnd):
     def test_01(self):
