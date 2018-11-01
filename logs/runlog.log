@@ -191,3 +191,35 @@
 2018-11-01 15:43:52,050 myunit.py[line:24] INFO test is start
 2018-11-01 15:43:52,274 test_adlist.py[line:13] INFO adlist is normal
 2018-11-01 15:43:52,672 myunit.py[line:30] INFO test is end
+2018-11-01 15:54:55,965 myunit.py[line:24] INFO test is start
+2018-11-01 15:54:56,231 myunit.py[line:30] INFO test is end
+2018-11-01 15:54:56,234 myunit.py[line:24] INFO test is start
+2018-11-01 15:54:56,489 test_adps.py[line:20] INFO the adfun is error
+2018-11-01 15:54:56,697 myunit.py[line:30] INFO test is end
+2018-11-01 15:54:56,699 myunit.py[line:24] INFO test is start
+2018-11-01 15:54:56,949 test_adps.py[line:25] INFO the adfun is error
+2018-11-01 15:54:57,163 myunit.py[line:30] INFO test is end
+2018-11-01 15:56:38,343 myunit.py[line:24] INFO test is start
+2018-11-01 15:56:38,603 test_adlist.py[line:13] INFO adlist is normal
+2018-11-01 15:56:38,988 myunit.py[line:30] INFO test is end
+2018-11-01 15:56:56,105 myunit.py[line:24] INFO test is start
+2018-11-01 15:56:56,360 test_order.py[line:15] INFO the adfun is normal
+2018-11-01 15:56:56,605 myunit.py[line:30] INFO test is end
+2018-11-01 15:56:56,606 myunit.py[line:24] INFO test is start
+2018-11-01 15:56:56,816 test_order.py[line:20] INFO the adfun is error
+2018-11-01 15:56:57,033 myunit.py[line:30] INFO test is end
+2018-11-01 15:56:57,034 myunit.py[line:24] INFO test is start
+2018-11-01 15:56:57,264 test_order.py[line:26] INFO the adname is exit
+2018-11-01 15:56:57,527 myunit.py[line:30] INFO test is end
+2018-11-01 16:00:22,741 myunit.py[line:24] INFO test is start
+2018-11-01 16:00:22,997 test_adlist.py[line:13] INFO adlist is normal
+2018-11-01 16:00:23,378 myunit.py[line:30] INFO test is end
+2018-11-01 16:13:05,389 myunit.py[line:24] INFO test is start
+2018-11-01 16:13:05,693 test_adps.py[line:16] INFO the adfun is normal
+2018-11-01 16:13:06,076 myunit.py[line:30] INFO test is end
+2018-11-01 16:13:06,078 myunit.py[line:24] INFO test is start
+2018-11-01 16:13:06,349 test_adps.py[line:21] INFO the adfun is error
+2018-11-01 16:13:06,550 myunit.py[line:30] INFO test is end
+2018-11-01 16:13:06,552 myunit.py[line:24] INFO test is start
+2018-11-01 16:13:06,848 test_adps.py[line:26] INFO the adfun is error
+2018-11-01 16:13:07,066 myunit.py[line:30] INFO test is end

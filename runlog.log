@@ -1,0 +1,9 @@
+2018-11-01 16:15:38,333 myunit.py[line:24] INFO test is start
+2018-11-01 16:15:38,567 test_adps.py[line:16] INFO the adfun is normal
+2018-11-01 16:15:38,923 myunit.py[line:30] INFO test is end
+2018-11-01 16:15:38,925 myunit.py[line:24] INFO test is start
+2018-11-01 16:15:39,183 test_adps.py[line:21] INFO the adfun is error
+2018-11-01 16:15:39,380 myunit.py[line:30] INFO test is end
+2018-11-01 16:15:39,383 myunit.py[line:24] INFO test is start
+2018-11-01 16:15:39,612 test_adps.py[line:26] INFO the adfun is error
+2018-11-01 16:15:39,837 myunit.py[line:30] INFO test is end

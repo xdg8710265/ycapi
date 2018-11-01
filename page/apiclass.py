@@ -4,7 +4,6 @@
 # 2018/10/22
 
 import requests
-import logging
 import json
 class apiclass():
      #初始话
