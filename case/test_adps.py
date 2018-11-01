@@ -5,12 +5,11 @@
 from yc_object.common.myunit import *
 from yc_object.common.function import *
 import logging
-import logging.config
 
 class TestAdps(StartEnd):
     def test_01(self):
         '''接口请求参数正常'''
-        csv_r = './data/yc.csv'
+        csv_r = '../data/yc.csv'
         data =csv_file(csv_r,2)
         logging.info("the adfun is normal")
         result=self.loc.adposition(data[0])

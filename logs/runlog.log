@@ -171,3 +171,23 @@
 2018-11-01 15:25:44,789 myunit.py[line:24] INFO test is start
 2018-11-01 15:25:45,037 test_adlist.py[line:13] INFO adlist is normal
 2018-11-01 15:25:45,406 myunit.py[line:30] INFO test is end
+2018-11-01 15:42:43,084 myunit.py[line:24] INFO test is start
+2018-11-01 15:42:43,355 myunit.py[line:30] INFO test is end
+2018-11-01 15:42:43,362 myunit.py[line:24] INFO test is start
+2018-11-01 15:42:43,595 test_order.py[line:20] INFO the adfun is error
+2018-11-01 15:42:43,828 myunit.py[line:30] INFO test is end
+2018-11-01 15:42:43,871 myunit.py[line:24] INFO test is start
+2018-11-01 15:42:44,078 test_order.py[line:26] INFO the adname is exit
+2018-11-01 15:42:44,347 myunit.py[line:30] INFO test is end
+2018-11-01 15:43:27,209 myunit.py[line:24] INFO test is start
+2018-11-01 15:43:27,479 test_order.py[line:15] INFO the adfun is normal
+2018-11-01 15:43:27,706 myunit.py[line:30] INFO test is end
+2018-11-01 15:43:27,707 myunit.py[line:24] INFO test is start
+2018-11-01 15:43:27,945 test_order.py[line:20] INFO the adfun is error
+2018-11-01 15:43:28,123 myunit.py[line:30] INFO test is end
+2018-11-01 15:43:28,123 myunit.py[line:24] INFO test is start
+2018-11-01 15:43:28,384 test_order.py[line:26] INFO the adname is exit
+2018-11-01 15:43:28,660 myunit.py[line:30] INFO test is end
+2018-11-01 15:43:52,050 myunit.py[line:24] INFO test is start
+2018-11-01 15:43:52,274 test_adlist.py[line:13] INFO adlist is normal
+2018-11-01 15:43:52,672 myunit.py[line:30] INFO test is end

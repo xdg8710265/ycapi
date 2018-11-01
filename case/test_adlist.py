@@ -5,7 +5,7 @@
 from yc_object.common.myunit import *
 from yc_object.common.function import csv_file
 import logging
-import logging.config
+
 class TestAdlist(StartEnd):
     def test_adlistnormal(self):
         """广告列表正常显示"""
