@@ -8,10 +8,13 @@ from BSTestRunner import BSTestRunner
 import time
 from yc_object.common.function import *
 import logging
-test_dir="./case"
+test_dir1=os.path.dirname(__file__)
+#print(test_dir1)
+test_dir=os.path.join(test_dir1,'case').replace("\\","/")
+
 report_dir="./report"
 
-descover=unittest.defaultTestLoader.discover(test_dir,pattern="test_adps.py")
+descover=unittest.defaultTestLoader.discover(test_dir,pattern="test_*.py")
 
 now=time.strftime("%Y-%m-%d %H-%M-%S")
 

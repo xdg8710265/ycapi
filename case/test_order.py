@@ -10,8 +10,6 @@ from yc_object.common.function import csv_file
 class TestOrder(StartEnd):
     def test_01(self):
         '''接口参数正常'''
-        g_file="../data/gid.csv"
-        data=csv_file(g_file,1)
         logging.info("the adfun is normal")
         result=self.loc.adorder("3321","1023ad111")
         self.assertEqual(result['response']['result_code'],'false')

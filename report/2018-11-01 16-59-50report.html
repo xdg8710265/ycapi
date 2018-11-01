@@ -150,9 +150,9 @@ function showOutput(id, name) {
 <div class="container">
     <div class='heading'>
 <h1>友唱接测试</h1>
-<p><strong>Start Time:</strong> 2018-11-01 09:43:00</p>
-<p><strong>Duration:</strong> 0:00:01.477902</p>
-<p><strong>Status:</strong> <span class="text text-success">Pass <strong>3</strong></span></p>
+<p><strong>Start Time:</strong> 2018-11-01 16:59:50</p>
+<p><strong>Duration:</strong> 0:00:05.065534</p>
+<p><strong>Status:</strong> <span class="text text-success">Pass <strong>9</strong></span> <span class="text text-danger">Failure <strong>1</strong></span></p>
 
 <p class='description'>接口测试报告</p>
 </div>
@@ -177,27 +177,106 @@ function showOutput(id, name) {
     </thead>
     <tbody>
         
+<tr class='text text-danger'>
+    <td>test_adlist.TestAdlist</td>
+    <td>4</td>
+    <td>3</td>
+    <td>1</td>
+    <td>0</td>
+    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c1',4)">Detail</a></td>
+</tr>
+
+<tr id='pt1.1' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test_adlist_funr_typew: 广告列表序列号错误，类型正确</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='ft1.2' class='text text-success'>
+    <td class='text text-danger'><div class='testcase'>test_adlist_funw_typer: 广告列表序列号正确，类型错误</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link btn btn-xs btn-default" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
+        fail</a>
+
+    <div id='div_ft1.2' class="popup_window">
+        <div style='text-align: right;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.2: Traceback (most recent call last):
+  File "C:\Users\caizhai\PycharmProjects\untitled9\yc_object\case\test_adlist.py", line 32, in test_adlist_funw_typer
+    self.assertEqual(result['response']['result_code'], 'false')
+AssertionError: 'true' != 'false'
+- true
++ false
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr id='pt1.3' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test_adlist_funw_typew: 广告列表序列号正确，类型正确</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt1.4' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test_adlistnormal: 广告列表正常显示</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
 <tr class='text text-success'>
     <td>test_adps.TestAdps</td>
     <td>3</td>
     <td>3</td>
     <td>0</td>
     <td>0</td>
-    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c1',3)">Detail</a></td>
+    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c2',3)">Detail</a></td>
 </tr>
 
-<tr id='pt1.1' class='hiddenRow'>
-    <td class='text text-success'><div class='testcase'>test_01: 接口请求参数正常</div></td>
+<tr id='pt2.1' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test_ad1: 接口请求参数正常</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
-<tr id='pt1.2' class='hiddenRow'>
-    <td class='text text-success'><div class='testcase'>test_02: 接口请求参数为大于1时</div></td>
+<tr id='pt2.2' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test_ad2: 接口请求参数为大于1时</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
-<tr id='pt1.3' class='hiddenRow'>
-    <td class='text text-success'><div class='testcase'>test_03: 接口请求参数为小于1时</div></td>
+<tr id='pt2.3' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test_ad3: 接口请求参数为小于1时</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr class='text text-success'>
+    <td>test_order.TestOrder</td>
+    <td>3</td>
+    <td>3</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a class="btn btn-xs btn-primary"href="javascript:showClassDetail('c3',3)">Detail</a></td>
+</tr>
+
+<tr id='pt3.1' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test_01: 接口参数正常</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt3.2' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test_02: 请求的参数号错误</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='pt3.3' class='hiddenRow'>
+    <td class='text text-success'><div class='testcase'>test_03: 请求的参数号正确，名字已经存在</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
@@ -205,9 +284,9 @@ function showOutput(id, name) {
     <tfoot>
         <tr id='total_row'>
             <td>Total</td>
-            <td>3</td>
-            <td class="text text-success">3</td>
-            <td class="text text-danger">0</td>
+            <td>10</td>
+            <td class="text text-success">9</td>
+            <td class="text text-danger">1</td>
             <td class="text text-warning">0</td>
             <td>&nbsp;</td>
         </tr>
