@@ -18,13 +18,17 @@ class TestAdps(StartEnd):
         self.assertEqual(result['response']['result_code'],'true')
     def test_ad2(self):
         '''接口请求参数为大于1时'''
+        csv_r = "./data/yc.csv"
+        data = csv_file(csv_r, 3)
         logging.info("the adfun is error")
-        result = self.loc.adposition(3321)
+        result = self.loc.adposition(data[0])
         self.assertEqual(result['response']['result_code'], 'false')
     def test_ad3(self):
         '''接口请求参数为小于1时'''
+        csv_r = "./data/yc.csv"
+        data = csv_file(csv_r, 4)
         logging.info("the adfun is error")
-        result = self.loc.adposition(3319)
+        result = self.loc.adposition(data[0])
         self.assertEqual(result['response']['result_code'], 'false')
 
 if __name__ == '__main__':

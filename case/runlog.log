@@ -19,3 +19,126 @@
 2018-11-01 16:17:13,251 myunit.py[line:24] INFO test is start
 2018-11-01 16:17:13,458 test_adlist.py[line:13] INFO adlist is normal
 2018-11-01 16:17:13,816 myunit.py[line:30] INFO test is end
+2018-11-01 16:27:47,318 myunit.py[line:24] INFO test is start
+2018-11-01 16:27:47,523 test_adlist.py[line:21] INFO adlist is normal
+2018-11-01 16:27:47,829 myunit.py[line:30] INFO test is end
+2018-11-01 16:28:02,822 myunit.py[line:24] INFO test is start
+2018-11-01 16:28:03,002 test_adlist.py[line:21] INFO adlist is normal
+2018-11-01 16:28:03,386 myunit.py[line:30] INFO test is end
+2018-11-01 16:28:03,387 myunit.py[line:24] INFO test is start
+2018-11-01 16:28:03,646 test_adlist.py[line:13] INFO adlist is normal
+2018-11-01 16:28:04,005 myunit.py[line:30] INFO test is end
+2018-11-01 16:29:17,835 myunit.py[line:24] INFO test is start
+2018-11-01 16:29:18,087 test_adlist.py[line:21] INFO adlist fun is right type error
+2018-11-01 16:29:18,381 myunit.py[line:30] INFO test is end
+2018-11-01 16:29:18,382 myunit.py[line:24] INFO test is start
+2018-11-01 16:29:18,593 test_adlist.py[line:13] INFO adlist is normal
+2018-11-01 16:29:18,997 myunit.py[line:30] INFO test is end
+2018-11-01 16:31:56,414 myunit.py[line:24] INFO test is start
+2018-11-01 16:31:56,620 test_adlist.py[line:21] INFO adlist fun is right type error
+2018-11-01 16:31:56,890 myunit.py[line:30] INFO test is end
+2018-11-01 16:31:56,891 myunit.py[line:24] INFO test is start
+2018-11-01 16:31:57,131 test_adlist.py[line:28] INFO adlist fun is wrong type right
+2018-11-01 16:31:57,530 myunit.py[line:30] INFO test is end
+2018-11-01 16:31:57,531 myunit.py[line:24] INFO test is start
+2018-11-01 16:31:57,768 test_adlist.py[line:35] INFO adlist fun is wrong type wrong
+2018-11-01 16:31:58,149 myunit.py[line:30] INFO test is end
+2018-11-01 16:31:58,150 myunit.py[line:24] INFO test is start
+2018-11-01 16:31:58,352 test_adlist.py[line:13] INFO adlist is normal
+2018-11-01 16:31:58,743 myunit.py[line:30] INFO test is end
+2018-11-01 16:33:34,913 myunit.py[line:24] INFO test is start
+2018-11-01 16:33:35,125 test_adlist.py[line:21] INFO adlist fun is right type error
+2018-11-01 16:33:35,452 myunit.py[line:30] INFO test is end
+2018-11-01 16:33:35,453 myunit.py[line:24] INFO test is start
+2018-11-01 16:33:35,675 test_adlist.py[line:28] INFO adlist fun is wrong type right
+2018-11-01 16:33:36,060 myunit.py[line:30] INFO test is end
+2018-11-01 16:33:36,061 myunit.py[line:24] INFO test is start
+2018-11-01 16:33:36,254 test_adlist.py[line:35] INFO adlist fun is wrong type wrong
+2018-11-01 16:33:36,638 myunit.py[line:30] INFO test is end
+2018-11-01 16:33:36,638 myunit.py[line:24] INFO test is start
+2018-11-01 16:33:36,946 test_adlist.py[line:13] INFO adlist is normal
+2018-11-01 16:33:37,312 myunit.py[line:30] INFO test is end
+2018-11-01 16:33:57,969 myunit.py[line:24] INFO test is start
+2018-11-01 16:33:58,181 test_adlist.py[line:21] INFO adlist fun is right type error
+2018-11-01 16:33:58,454 myunit.py[line:30] INFO test is end
+2018-11-01 16:33:58,455 myunit.py[line:24] INFO test is start
+2018-11-01 16:33:58,765 test_adlist.py[line:28] INFO adlist fun is wrong type right
+2018-11-01 16:33:59,131 myunit.py[line:30] INFO test is end
+2018-11-01 16:33:59,132 myunit.py[line:24] INFO test is start
+2018-11-01 16:33:59,384 test_adlist.py[line:35] INFO adlist fun is wrong type wrong
+2018-11-01 16:33:59,745 myunit.py[line:30] INFO test is end
+2018-11-01 16:33:59,746 myunit.py[line:24] INFO test is start
+2018-11-01 16:34:00,026 test_adlist.py[line:13] INFO adlist is normal
+2018-11-01 16:34:00,372 myunit.py[line:30] INFO test is end
+2018-11-01 16:34:32,261 myunit.py[line:24] INFO test is start
+2018-11-01 16:34:32,472 test_adlist.py[line:21] INFO adlist fun is right type error
+2018-11-01 16:34:32,779 myunit.py[line:30] INFO test is end
+2018-11-01 16:34:32,780 myunit.py[line:24] INFO test is start
+2018-11-01 16:34:33,013 test_adlist.py[line:28] INFO adlist fun is wrong type right
+2018-11-01 16:34:33,377 myunit.py[line:30] INFO test is end
+2018-11-01 16:34:33,378 myunit.py[line:24] INFO test is start
+2018-11-01 16:34:33,622 test_adlist.py[line:35] INFO adlist fun is wrong type wrong
+2018-11-01 16:34:34,058 myunit.py[line:30] INFO test is end
+2018-11-01 16:34:34,059 myunit.py[line:24] INFO test is start
+2018-11-01 16:34:34,321 test_adlist.py[line:13] INFO adlist is normal
+2018-11-01 16:34:34,683 myunit.py[line:30] INFO test is end
+2018-11-01 16:35:07,871 myunit.py[line:24] INFO test is start
+2018-11-01 16:35:08,217 test_adlist.py[line:21] INFO adlist fun is right type error
+2018-11-01 16:35:08,533 myunit.py[line:30] INFO test is end
+2018-11-01 16:35:08,535 myunit.py[line:24] INFO test is start
+2018-11-01 16:35:08,760 test_adlist.py[line:29] INFO adlist fun is wrong type right
+2018-11-01 16:35:09,167 myunit.py[line:30] INFO test is end
+2018-11-01 16:35:09,168 myunit.py[line:24] INFO test is start
+2018-11-01 16:35:09,402 test_adlist.py[line:36] INFO adlist fun is wrong type wrong
+2018-11-01 16:35:09,793 myunit.py[line:30] INFO test is end
+2018-11-01 16:35:09,793 myunit.py[line:24] INFO test is start
+2018-11-01 16:35:10,037 test_adlist.py[line:13] INFO adlist is normal
+2018-11-01 16:35:10,397 myunit.py[line:30] INFO test is end
+2018-11-01 16:36:18,891 myunit.py[line:24] INFO test is start
+2018-11-01 16:36:19,133 test_adlist.py[line:21] INFO adlist fun is right type error
+2018-11-01 16:36:19,477 myunit.py[line:30] INFO test is end
+2018-11-01 16:36:19,478 myunit.py[line:24] INFO test is start
+2018-11-01 16:36:19,729 test_adlist.py[line:29] INFO adlist fun is wrong type right
+2018-11-01 16:36:20,045 myunit.py[line:30] INFO test is end
+2018-11-01 16:36:20,046 myunit.py[line:24] INFO test is start
+2018-11-01 16:36:20,306 test_adlist.py[line:36] INFO adlist fun is wrong type wrong
+2018-11-01 16:36:20,780 myunit.py[line:30] INFO test is end
+2018-11-01 16:36:20,780 myunit.py[line:24] INFO test is start
+2018-11-01 16:36:21,086 test_adlist.py[line:13] INFO adlist is normal
+2018-11-01 16:36:21,087 myunit.py[line:30] INFO test is end
+2018-11-01 16:37:21,657 myunit.py[line:24] INFO test is start
+2018-11-01 16:37:21,927 test_adlist.py[line:21] INFO adlist fun is right type error
+2018-11-01 16:37:22,230 myunit.py[line:30] INFO test is end
+2018-11-01 16:37:22,231 myunit.py[line:24] INFO test is start
+2018-11-01 16:37:22,488 test_adlist.py[line:29] INFO adlist fun is wrong type right
+2018-11-01 16:37:22,871 myunit.py[line:30] INFO test is end
+2018-11-01 16:37:22,872 myunit.py[line:24] INFO test is start
+2018-11-01 16:37:23,072 test_adlist.py[line:36] INFO adlist fun is wrong type wrong
+2018-11-01 16:37:23,394 myunit.py[line:30] INFO test is end
+2018-11-01 16:37:23,394 myunit.py[line:24] INFO test is start
+2018-11-01 16:37:23,603 test_adlist.py[line:13] INFO adlist is normal
+2018-11-01 16:37:23,962 myunit.py[line:30] INFO test is end
+2018-11-01 16:38:23,872 myunit.py[line:24] INFO test is start
+2018-11-01 16:38:24,112 test_adlist.py[line:21] INFO adlist fun is right type error
+2018-11-01 16:38:24,444 myunit.py[line:30] INFO test is end
+2018-11-01 16:38:24,445 myunit.py[line:24] INFO test is start
+2018-11-01 16:38:24,697 test_adlist.py[line:29] INFO adlist fun is wrong type right
+2018-11-01 16:38:25,103 myunit.py[line:30] INFO test is end
+2018-11-01 16:38:25,104 myunit.py[line:24] INFO test is start
+2018-11-01 16:38:25,370 test_adlist.py[line:36] INFO adlist fun is wrong type wrong
+2018-11-01 16:38:26,223 myunit.py[line:30] INFO test is end
+2018-11-01 16:38:26,224 myunit.py[line:24] INFO test is start
+2018-11-01 16:38:29,484 test_adlist.py[line:13] INFO adlist is normal
+2018-11-01 16:38:29,992 myunit.py[line:30] INFO test is end
+2018-11-01 16:39:12,375 myunit.py[line:24] INFO test is start
+2018-11-01 16:39:12,620 test_adlist.py[line:21] INFO adlist fun is right type error
+2018-11-01 16:39:12,970 myunit.py[line:30] INFO test is end
+2018-11-01 16:39:12,971 myunit.py[line:24] INFO test is start
+2018-11-01 16:39:13,200 test_adlist.py[line:29] INFO adlist fun is wrong type right
+2018-11-01 16:39:13,601 myunit.py[line:30] INFO test is end
+2018-11-01 16:39:13,601 myunit.py[line:24] INFO test is start
+2018-11-01 16:39:13,835 test_adlist.py[line:36] INFO adlist fun is wrong type wrong
+2018-11-01 16:39:14,227 myunit.py[line:30] INFO test is end
+2018-11-01 16:39:14,227 myunit.py[line:24] INFO test is start
+2018-11-01 16:39:14,421 test_adlist.py[line:13] INFO adlist is normal
+2018-11-01 16:39:14,791 myunit.py[line:30] INFO test is end

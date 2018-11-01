@@ -13,6 +13,31 @@ class TestAdlist(StartEnd):
         logging.info("adlist is normal")
         data=csv_file(list_file,1)
         result=self.loc.adlist(data[0],data[1])
-        self.assertTrue(result['response']['result_code'],'true')
+        self.assertEqual(result['response']['result_code'],'true')
+        #print(result)
+    def test_adlist_funr_typew(self):
+        """广告列表序列号错误，类型正确"""
+        list_file = "../data/adlist.csv"
+        logging.info("adlist fun is right type error")
+        data = csv_file(list_file, 2)
+        result = self.loc.adlist(data[0], data[1])
+        self.assertEqual(result['response']['result_code'], 'false')
+
+    def test_adlist_funw_typer(self):
+        """广告列表序列号正确，类型错误"""
+        list_file = "../data/adlist.csv"
+        logging.info("adlist fun is wrong type right")
+        data = csv_file(list_file, 3)
+        result = self.loc.adlist(data[0], data[1])
+        self.assertEqual(result['response']['result_code'], 'false')
+    def test_adlist_funw_typew(self):
+        """广告列表序列号正确，类型正确"""
+        list_file = "../data/adlist.csv"
+        logging.info("adlist fun is wrong type wrong")
+        data = csv_file(list_file, 4)
+        result = self.loc.adlist(data[0], data[1])
+        self.assertEqual(result['response']['result_code'], 'true')
+        #print(result)
+
 if __name__ == '__main__':
     unittest.main()
