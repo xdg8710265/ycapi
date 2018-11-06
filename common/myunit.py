@@ -23,9 +23,7 @@ class StartEnd(unittest.TestCase):
     def setUp(self):
         logging.info("test is start")
         self.s = requests.session()
-        lo = apiclass(self.s)
-        lo.login("18575686374", '123456')
-        self.loc = apiclass(self.s)
+        self.loc = apiclass(self.s,'18575686374','123456')
     def tearDown(self):
         logging.info("test is end")
         self.s.cookies.clear_session_cookies()

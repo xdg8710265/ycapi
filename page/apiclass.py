@@ -7,16 +7,16 @@ import requests
 import json
 class apiclass():
      #初始话
-    def __init__(self,s):
+    def __init__(self,s,phone,passwd):
         self.s=s  #传递一个行参
-    def login(self,phone, passwd):
+    # def login(self,phone, passwd):
         url="http://pre-admin-pc.ucmbar.com/youCS/youC/admin/index/api"
         data = {
             "header": {"data_type": "normal", "data_direction": "request", "server": "YoucManage", "id": "YoucManage"},
             "request": {"function": "1001", "version": "1.0", "mobile": phone, "password": passwd},
             "comment": []}
         reslut =self.s.post(url=url, json=data)
-        return reslut.json()
+        # return reslut.json()
     def adposition(self,fun):
         """广告投放位置"""
         url="http://pre-admin-pc.ucmbar.com/youCS/youC/admin/Synthesize/api"
@@ -48,8 +48,7 @@ class apiclass():
         return result.json()
 if __name__ == '__main__':
     s = requests.session()
-    b=apiclass(s)
-    b.login("18575686374","123456")
+    b=apiclass(s,'18575686374','123456')
     a=b.adlist("3323","1001")
     print(a)
 
