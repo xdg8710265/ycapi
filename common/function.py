@@ -17,7 +17,7 @@ def send_mail(latest_report):
     username="15070315464@163.com"
     password="xdg1990920"
     send="15070315464@163.com"
-    recive=['253575877@qq.com']
+    recive=['xudegui@ubox.cn']
     subject=u"这是个测试封装好的发送"
     msg=MIMEText(mail_content,'html','utf-8')
     msg['Subject']=Header(subject)
@@ -51,3 +51,7 @@ if __name__ == '__main__':
     csv_r='../data/yc.csv'
     data=csv_file(csv_r,1)
     print(data)
+
+    report="../report"
+    lare=latest_report(report)
+    send_mail(lare)

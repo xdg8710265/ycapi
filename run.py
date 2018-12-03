@@ -14,7 +14,7 @@ test_dir=os.path.join(test_dir1,'case').replace("\\","/")
 
 report_dir="./report"
 
-descover=unittest.defaultTestLoader.discover(test_dir,pattern="test_*.py")
+descover=unittest.defaultTestLoader.discover(test_dir,pattern="test_cuba.py")
 
 now=time.strftime("%Y-%m-%d %H-%M-%S")
 

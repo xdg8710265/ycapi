@@ -46,6 +46,18 @@ class apiclass():
 	          "comment":[]}
         result=self.s.post(url=url,json=data)
         return result.json()
+
+    def shopdetail(self):
+        """未联网率商家"""
+        url="http://pre-admin-pc.ucmbar.com/youCS/youC/admin/DataCube/api"
+        data={"header":{"data_type":"normal","data_direction":"request","server":"YoucManage","id":"YoucManage"},
+"request":{"function":"4001","version":"1.0","from_platform":1,"time_type":1,"year":"2018","month":"10","start_time":"","end_time":"","merchant_name":"武汉","page":1,"page_size":15},
+"comment":"666"}
+        result=self.s.post(url=url,json=data)
+        return result.json()
+
+
+
 if __name__ == '__main__':
     s = requests.session()
     b=apiclass(s,'18575686374','123456')

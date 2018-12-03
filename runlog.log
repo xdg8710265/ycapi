@@ -195,3 +195,11 @@
 2018-11-06 15:27:53,770 myunit.py[line:24] INFO test is start
 2018-11-06 15:27:54,027 test_adps.py[line:16] INFO the adfun is normal
 2018-11-06 15:27:54,386 myunit.py[line:28] INFO test is end
+2018-12-03 10:54:24,824 myunit.py[line:24] INFO test is start
+2018-12-03 10:54:25,141 test_cuba.py[line:11] INFO 未联网分析商家接口是正确的
+2018-12-03 10:54:25,157 myunit.py[line:28] INFO test is end
+2018-12-03 10:54:59,364 myunit.py[line:24] INFO test is start
+2018-12-03 10:54:59,567 test_cuba.py[line:11] INFO 未联网分析商家接口是正确的
+2018-12-03 10:54:59,870 myunit.py[line:28] INFO test is end
+2018-12-03 10:54:59,870 run.py[line:28] INFO ————获取最后一个测试报告————
+2018-12-03 10:54:59,964 run.py[line:32] INFO ---发送邮件---
