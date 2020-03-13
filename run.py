@@ -26,8 +26,8 @@ with open(report_name,'wb') as f:
 
 #("获取最后一个报告")
 logging.info("————获取最后一个测试报告————")
-lastr=latest_report(report_dir)
+lastr=email.latest_report(report_dir)
 
 #("发送邮件")
 logging.info("---发送邮件---")
-send_mail(lastr)
+email.send_mail(lastr)
